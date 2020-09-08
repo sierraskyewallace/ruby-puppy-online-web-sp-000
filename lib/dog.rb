@@ -20,7 +20,7 @@ class Dog
     @@all.each do |dog| puts dog.name
   end
   def save 
-    @name 
+    @save
   end
   
   def name 
