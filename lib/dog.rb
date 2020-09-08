@@ -20,6 +20,8 @@ class Dog
     @@all.each do |dog| puts dog.name
   end
   
+  def save 
+    @@all << self
   def name 
     @name
   end
